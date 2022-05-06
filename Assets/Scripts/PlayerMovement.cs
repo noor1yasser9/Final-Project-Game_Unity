@@ -13,12 +13,15 @@ public class PlayerMovement : MonoBehaviour
     private bool facingRightDirction;
     private object vector3;
     public Animator anim;
-    
+        Vector3 startPosition;
+
 
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
+        startPosition = transform.position;
+print("ttttt"+ startPosition);
     }
 
     private void Update()
@@ -68,5 +71,38 @@ public class PlayerMovement : MonoBehaviour
         currentScale.x *= -1;
         transform.localScale = currentScale;
      }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+       
+
+        if (collision.collider.gameObject.tag == "BatEnemyPlayer")
+        {
+            transform.position = startPosition;
+print("ttttt"+ startPosition);
+            return;
+        }
+        
+
+    //    Vector2 point = collision.contacts[0].normal;
+      //  if (point.y > 0) {
+        //    canJump = true;
+        // }
+        
+    }
+
+    private void OntriggerStay2D(Collider2D collision)
+    {
+        GameObject other = collision.gameObject;
+
+
+            if (other.tag == "BatEnemyPlayer")
+        {
+            transform.position = startPosition;
+print("ttttt"+ startPosition);
+            return;
+        }
+    }
+
 
 }
