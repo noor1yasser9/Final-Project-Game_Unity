@@ -13,9 +13,8 @@ public int coinValue = 1  ;
     if(other.gameObject.CompareTag("Player")){
         ScoreManager.instance.ChangeCoinScore(coinValue);
     }
-
-
- 
 }
+
+
 
 }

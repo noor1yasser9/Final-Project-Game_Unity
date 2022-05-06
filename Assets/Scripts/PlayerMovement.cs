@@ -72,26 +72,8 @@ print("ttttt"+ startPosition);
         transform.localScale = currentScale;
      }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-       
-
-        if (collision.collider.gameObject.tag == "BatEnemyPlayer")
-        {
-            transform.position = startPosition;
-print("ttttt"+ startPosition);
-            return;
-        }
-        
-
-    //    Vector2 point = collision.contacts[0].normal;
-      //  if (point.y > 0) {
-        //    canJump = true;
-        // }
-        
-    }
-
-    private void OntriggerStay2D(Collider2D collision)
+  
+    private void  OnTriggerEnter2D(Collider2D collision)
     {
         GameObject other = collision.gameObject;
 
@@ -99,7 +81,7 @@ print("ttttt"+ startPosition);
             if (other.tag == "BatEnemyPlayer")
         {
             transform.position = startPosition;
-print("ttttt"+ startPosition);
+
             return;
         }
     }
