@@ -15,8 +15,10 @@ public class ScoreManager : MonoBehaviour
     public Text text3 ; 
     int coinScore = 0 ; 
     int goldScore = 0 ; 
- 
+     int health = 100;
 
+    [SerializeField]
+    Text healthText;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +52,17 @@ public void ChangeGoldScore( int goldValue){
     text2.text = goldScore.ToString();
 
 }
+
+ public void AddHealth(int value)
+    {
+        health += value;
+        health = Mathf.Min(100, health);
+        healthText.text = "Health: " + health;
+    }
+ public int GetHealth()
+    {
+        return health;
+    }
 
 
 
