@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PauseScrpit : MonoBehaviour
+public class StopScrpit : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,8 +16,8 @@ public class PauseScrpit : MonoBehaviour
         
     }
 
-	public void StopGame(bool isControll){
-	PlayerMovement.isControll = isControll;
+	public void StopGame(int isControll){
+	PlayerMovement.isControll = isControll==1?true:false;
 	}
 
 }
