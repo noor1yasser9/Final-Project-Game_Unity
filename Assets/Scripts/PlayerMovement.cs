@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+public static bool isControll = true;
 
       public float MovementSpeed = 2;
     public float JumpForce = 4;
@@ -27,6 +27,8 @@ print("ttttt"+ startPosition);
 
     private void Update()
     {
+if(isControll)
+{
         var movement = Input.GetAxis("Horizontal");
  if (movement > 0 && transform.localScale.x < 0)
         {
@@ -74,7 +76,9 @@ print("ttttt"+ startPosition);
             anim.SetBool("isJumping", false);
         }
 
-
+}else {
+      anim.SetFloat("Speed",0f);
+}
     }
     void Flip()
     {

@@ -6,11 +6,32 @@ using UnityEngine.SceneManagement;
 
 public class MainScript : MonoBehaviour
 {
-     // Start is called before the first frame update
+       [SerializeField]
+    Button level2;
+   [SerializeField]
+    Button level3;
+   [SerializeField]
+    Button level4;
+   [SerializeField]
+    Button level5;
     void Start()
     {
-        
+        level2.enabled = PlayerPrefs. GetInt("level2",0)==1?true:false;
+changeColor(level2,PlayerPrefs. GetInt("level2",0));
+        level3.enabled = PlayerPrefs. GetInt("level2",0)==1?true:false;
+changeColor(level3,PlayerPrefs. GetInt("level3",0));
+        level4.enabled = PlayerPrefs. GetInt("level2",0)==1?true:false;
+changeColor(level3,PlayerPrefs. GetInt("level4",0));
+        level5.enabled = PlayerPrefs. GetInt("level2",0)==1?true:false;
+changeColor(level5,PlayerPrefs. GetInt("level5",0));
     }
+
+void changeColor(Button button, int isEnabled){
+	if(isEnabled == 1){
+   	button.GetComponent<Image>().color = Color.white;
+   
+}
+}
 
     // Update is called once per frame
     void Update()
@@ -21,8 +42,13 @@ public class MainScript : MonoBehaviour
 	public void level(int i){
 		Debug.Log("Play");
 		SceneManager.LoadScene(i);
+		PlayerPrefs. GetInt("level",i);	
 	}
 	public void quitButton(){
 		Debug.Log("Quit");
 	}
+
+
+
+
 }
