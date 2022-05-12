@@ -25,7 +25,12 @@ int isLoad = 0;
     {
 if(isLoad==1){
 if(sleep<0){
+if(PlayerPrefs.GetInt("level",1)!=5){
 	SceneManager.LoadScene(PlayerPrefs. GetInt("level",1));
+}else{
+	SceneManager.LoadScene(0);
+PlayerPrefs.SetInt("level",5);
+}
 PlayerMovement.isControll = true;
 }
   sleep -= 100;
@@ -37,7 +42,7 @@ PlayerMovement.isControll = true;
  PlayerPrefs.DeleteAll();
 	 if(col.gameObject.CompareTag("Player")){
 
-		if(PlayerPrefs.GetInt("level",1)!=5){
+		if(PlayerPrefs.GetInt("level",1)<=5){
 Debug.Log("ttttlevel"+PlayerPrefs.GetInt("level",1));
 
 		Debug.Log("ttttlevel"+PlayerPrefs.GetInt("level",1));
