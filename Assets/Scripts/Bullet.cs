@@ -34,7 +34,15 @@ public class Bullet : MonoBehaviour
         }else if (other.tag == "BatEnemyPlayer"){
              Destroy(other);
             Destroy(gameObject);
-        }
+        }else 	 if(collision.gameObject.CompareTag("BigEnemy")){
+	HealthBarScript. healthEn -=2f;
+             Destroy(gameObject);
+		if(HealthBarScript. healthEn <=0){
+//other.transform.Rotate(0,0,90);
+EnemyDamage. isControl =false;
+ 		Destroy(other);
+}
+}
     }
     
     // private void OnCollisionEnter2D(Collision2D collision)

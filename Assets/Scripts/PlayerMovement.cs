@@ -13,7 +13,7 @@ public static bool isControll = true;
     private bool facingRightDirction;
     private object vector3;
     public Animator anim;
-        Vector3 startPosition;
+     public  Vector3 startPosition;
 [SerializeField]
     GameObject bulletPrefab;
 

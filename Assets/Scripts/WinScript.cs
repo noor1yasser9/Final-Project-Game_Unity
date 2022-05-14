@@ -32,6 +32,7 @@ if(PlayerPrefs.GetInt("level",1)!=5){
 PlayerPrefs.SetInt("level",5);
 }
 PlayerMovement.isControll = true;
+EnemyDamage. isControl = true;
 }
   sleep -= 100;
 }
@@ -39,8 +40,8 @@ PlayerMovement.isControll = true;
     }
 
     void OnTriggerEnter2D(Collider2D col){
- PlayerPrefs.DeleteAll();
-	 if(col.gameObject.CompareTag("Player")){
+ //PlayerPrefs.DeleteAll();
+	 if(col.gameObject.CompareTag("Player") && !EnemyDamage.isControl){
 
 		if(PlayerPrefs.GetInt("level",1)<=5){
 Debug.Log("ttttlevel"+PlayerPrefs.GetInt("level",1));

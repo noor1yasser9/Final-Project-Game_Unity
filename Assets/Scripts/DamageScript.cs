@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class DamageScript : MonoBehaviour
 {
+[SerializeField] private float damage;
     void OnTriggerEnter2D(Collider2D col){
 	 if(col.gameObject.CompareTag("Player")){
-	HealthBarScript. health -=10f;
+	HealthBarScript. health -= damage;
 }
 }
 private void OnTriggerStay2D(Collider2D other)
     {
 if(other.gameObject.CompareTag("Player")){
-       HealthBarScript. health -=2f;
+		if( HealthBarScript.health<=0){
+			other.gameObject.GetComponent<PlayerMovement>().transform.position  = 	other.gameObject.GetComponent<PlayerMovement>().startPosition ;
+ HealthBarScript. health = 100f;
+
+}
+       //HealthBarScript. health -=2f;
     }
 }
 }

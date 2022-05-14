@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
+public static bool isControl = true;
       [Header ("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
@@ -29,6 +30,7 @@ public class EnemyDamage : MonoBehaviour
 
     private void Update()
     {
+if(isControl){
         cooldownTimer += Time.deltaTime;
 
         //Attack only when player in sight?
@@ -43,6 +45,7 @@ public class EnemyDamage : MonoBehaviour
 
         if (enemyPatrol != null)
             enemyPatrol.enabled = !PlayerInSight();
+}
     }
 
     private bool PlayerInSight()
@@ -78,6 +81,11 @@ if(other.gameObject.CompareTag("Player")){
 {
 
        HealthBarScript.health -=damage;
+
+	if( HealthBarScript.health<=0){
+			other.gameObject.GetComponent<PlayerMovement>().transform.position  = 	other.gameObject.GetComponent<PlayerMovement>().startPosition ;
+ HealthBarScript. health = 100f;
+}
 
 }
     }

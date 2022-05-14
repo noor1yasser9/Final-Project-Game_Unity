@@ -24,7 +24,7 @@ public class batCode : MonoBehaviour
             float distance = Vector3.Distance(startPoint, playerObject.transform.position);
             if (distance < 4)
             {
-                transform.position = Vector3.MoveTowards(transform.position, playerObject.transform.position, 0.01f);
+                transform.position = Vector3.MoveTowards(transform.position, 	  playerObject.transform.position, 0.01f);
             }
             else
             {

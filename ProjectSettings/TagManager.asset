@@ -8,6 +8,9 @@ TagManager:
   - AffectScore
   - BatEnemyPlayer
   - TileMap
+  - PlayerBar
+  - EnemyBar
+  - BigEnemy
   layers:
   - Default
   - TransparentFX
