@@ -879,3 +879,567 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 687.715247 seconds.
+  path: Assets/Scenes/level3.unity
+  artifactKey: Guid(343902906218043c296364ec6092c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level3.unity using Guid(343902906218043c296364ec6092c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b005915d7bfcaef479611d69cb93096') in 0.006821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 233.674266 seconds.
+  path: Assets/Final 2/level 4/New Folder
+  artifactKey: Guid(1ee4dea45c69f49829845701295a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/New Folder using Guid(1ee4dea45c69f49829845701295a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d6646d68142d2d64a6f7becb7109bc') in 0.003675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.678764 seconds.
+  path: Assets/Final 2/level 4/Enemy4
+  artifactKey: Guid(1ee4dea45c69f49829845701295a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4 using Guid(1ee4dea45c69f49829845701295a178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8392b5941842a329f77c9ce93858df12') in 0.003219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.281815 seconds.
+  path: Assets/Final 2/level 4/Titemap/player_04.asset
+  artifactKey: Guid(cc4adc35ba395495089f04a09ad9c057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Titemap/player_04.asset using Guid(cc4adc35ba395495089f04a09ad9c057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9d938da7b1758df30f31128a3cb9e4') in 0.175527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.184881 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Slashing
+  artifactKey: Guid(7cf8a4d37c80348d4a5fcea52692d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Slashing using Guid(7cf8a4d37c80348d4a5fcea52692d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da78a227a256f1defce5d3380ca3964') in 0.002694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.242827 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking
+  artifactKey: Guid(7cf8a4d37c80348d4a5fcea52692d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking using Guid(7cf8a4d37c80348d4a5fcea52692d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a762aea6d77c79742fd3b762d7c1e29d') in 0.002794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.578835 seconds.
+  path: Assets/Animations/level 4 Enemy/Enemy.controller
+  artifactKey: Guid(1c24836efd4ca4e7682060d576fc3295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/level 4 Enemy/Enemy.controller using Guid(1c24836efd4ca4e7682060d576fc3295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e742a579c44ba9bfdc967ee48f695c57') in 0.010356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 181.789374 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_000.png
+  artifactKey: Guid(431a77729909b43eb8467f7ee99519a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_000.png using Guid(431a77729909b43eb8467f7ee99519a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c344c57786baefb2169424611e9675') in 0.227057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_004.png
+  artifactKey: Guid(c6626c885aa544261ad50988910b20e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_004.png using Guid(c6626c885aa544261ad50988910b20e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23f4b9234878d929b6c2f1e870b2e9') in 0.022186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_003.png
+  artifactKey: Guid(332930a2f185c452291933e5b15aee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_003.png using Guid(332930a2f185c452291933e5b15aee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f31ff4882687f7b1d0f5ee1c3bea941') in 0.029192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_015.png
+  artifactKey: Guid(a7324a7348fa342edbb85c51eebf29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_015.png using Guid(a7324a7348fa342edbb85c51eebf29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebad27609f15b2408577bbcc7665bac1') in 0.020984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_012.png
+  artifactKey: Guid(ed1b369def35f49acbac298015aa54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_012.png using Guid(ed1b369def35f49acbac298015aa54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2d1c40c545f18c77019ca6188c05f7') in 0.020483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_008.png
+  artifactKey: Guid(e677c51e07c334982a6b066647c7e5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_008.png using Guid(e677c51e07c334982a6b066647c7e5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb4d1c85f5324b3514bfe216095ce8e') in 0.017146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_005.png
+  artifactKey: Guid(77423a487ce7041f2ab0803de421a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_005.png using Guid(77423a487ce7041f2ab0803de421a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7858435055bad1b952304047c5c04d55') in 0.026488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_006.png
+  artifactKey: Guid(be6bb03ee53c54b2eb6b07270438b384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_006.png using Guid(be6bb03ee53c54b2eb6b07270438b384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59a2fb1e59ae73d6b6123f126c694b0') in 0.030663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_007.png
+  artifactKey: Guid(cffd44c962f8b4ad1828ffd10147a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_007.png using Guid(cffd44c962f8b4ad1828ffd10147a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935c5cbb99e5ad44033c26c1b1232d34') in 0.022827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_001.png
+  artifactKey: Guid(16207ae8084ee4686bf14bc420b48ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_001.png using Guid(16207ae8084ee4686bf14bc420b48ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e72b0b365e814e820269821f44382a') in 0.016216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_010.png
+  artifactKey: Guid(572b053ccc69247868f207b93fbc469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_010.png using Guid(572b053ccc69247868f207b93fbc469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7364ed37181c985bc0cfb8ea1d87c95a') in 0.021584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_014.png
+  artifactKey: Guid(88a80f56c06974f84a6c77e99ad1229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_014.png using Guid(88a80f56c06974f84a6c77e99ad1229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df2157a0f21ab66525c8951dc3c609') in 0.021825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_011.png
+  artifactKey: Guid(17c0a3c73e2ea4e1fb5e8c85c9ec2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_011.png using Guid(17c0a3c73e2ea4e1fb5e8c85c9ec2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b2a603e94468ffd23e177d3662f500') in 0.022620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_009.png
+  artifactKey: Guid(b20a805429d8040d492adfbdf899dde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_009.png using Guid(b20a805429d8040d492adfbdf899dde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba1b04e962f5bf14baf96ff20694d18') in 0.015969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_013.png
+  artifactKey: Guid(18fc340ff5d234d5c802cca8d14899a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_013.png using Guid(18fc340ff5d234d5c802cca8d14899a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3956b272924ae360499cf7ae057ef5be') in 0.028145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_002.png
+  artifactKey: Guid(6ef2f07325c2844d48022dd7ed9398f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_002.png using Guid(6ef2f07325c2844d48022dd7ed9398f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6879a6fcd61ba35c7088287628b46ee') in 0.033248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.786403 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_016.png
+  artifactKey: Guid(2fb78c8cfa7c741db85557aabcae5a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_016.png using Guid(2fb78c8cfa7c741db85557aabcae5a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5833f88cec58534d09342724a48fe281') in 0.024979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_017.png
+  artifactKey: Guid(64a92e9be2ab54d669fd5c7464dd9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Idle/0_Golem_Idle_017.png using Guid(64a92e9be2ab54d669fd5c7464dd9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6642b59a26660a8b6470a88ac609ed39') in 0.034469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.353543 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_000.png
+  artifactKey: Guid(9bcea3ddf0aca4311a43dadacaa2c7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_000.png using Guid(9bcea3ddf0aca4311a43dadacaa2c7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887ce71ce7b293df6d3aef1e102aabf5') in 0.034709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_009.png
+  artifactKey: Guid(f8506767a1a6d4194ab17297032458d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_009.png using Guid(f8506767a1a6d4194ab17297032458d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bbba98bdb9110dbaf8fad7fbece778') in 0.029409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_003.png
+  artifactKey: Guid(844e01c1a114f4f07aee95b60a84d368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_003.png using Guid(844e01c1a114f4f07aee95b60a84d368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5ffca6bb77f31bed5fb0781af44df4') in 0.031360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_005.png
+  artifactKey: Guid(9849aedf026a14603a493d9ac53f8ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_005.png using Guid(9849aedf026a14603a493d9ac53f8ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c060450689082fe551ec44b5a7b930e') in 0.021859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_004.png
+  artifactKey: Guid(c28516b48d2c5461e804bee7a9370c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_004.png using Guid(c28516b48d2c5461e804bee7a9370c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8949a25aa14911934f53a46c5f50b348') in 0.020600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_010.png
+  artifactKey: Guid(44035851028814b7f835c65d76670f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_010.png using Guid(44035851028814b7f835c65d76670f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb7e21607d29b2479c783482bf722f4') in 0.023098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_001.png
+  artifactKey: Guid(9a4d9197c4ce6415298d3c5b35a0313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_001.png using Guid(9a4d9197c4ce6415298d3c5b35a0313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44476b8aec04594c66ab036ee6750c01') in 0.022146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_006.png
+  artifactKey: Guid(028a64206b1fd4391b22ddc2dadab633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_006.png using Guid(028a64206b1fd4391b22ddc2dadab633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ba0b0a315e4bb71dae188e8e27027c') in 0.016516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_007.png
+  artifactKey: Guid(c1b709a7a743843b7829aa9d0fbf3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_007.png using Guid(c1b709a7a743843b7829aa9d0fbf3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c57173d80073d1f2d5daf8aa1059ba3') in 0.025657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_008.png
+  artifactKey: Guid(1706b8806ffaa4f5492765dd38830b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_008.png using Guid(1706b8806ffaa4f5492765dd38830b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd216547c52db1a1a759daad3a2b31bdd') in 0.024084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_011.png
+  artifactKey: Guid(6b7caae5e027143bbac8284a93c60522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_011.png using Guid(6b7caae5e027143bbac8284a93c60522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b271a2d7bb0e59cbb81faec22acde0') in 0.034044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_002.png
+  artifactKey: Guid(fd2550a2e12fe4c2e93df6a49cb1a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Attacking/0_Golem_Slashing_002.png using Guid(fd2550a2e12fe4c2e93df6a49cb1a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403ccf58c7641915a0c172102a7610ea') in 0.025240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.869806 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_005.png
+  artifactKey: Guid(d0e029c625d524166ab5ae96ed1ee576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_005.png using Guid(d0e029c625d524166ab5ae96ed1ee576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3314b5e5086506ca0eda09869aa2ad') in 0.026461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_020.png
+  artifactKey: Guid(1bb338382539347b2bd1d27813318909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_020.png using Guid(1bb338382539347b2bd1d27813318909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340ac78ace38c1b93b947f18d981f6c3') in 0.026750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_013.png
+  artifactKey: Guid(6a843625042a941f4ad257787189a571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_013.png using Guid(6a843625042a941f4ad257787189a571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7fd97aedb5622d6e95c6cbe90eea6a') in 0.035114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_017.png
+  artifactKey: Guid(3224a71c177214adbac35c3974575919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_017.png using Guid(3224a71c177214adbac35c3974575919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07459500d359877f947853ca5c0c7a5b') in 0.016243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_008.png
+  artifactKey: Guid(9ee4fbd185010448ba8785eb42476892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_008.png using Guid(9ee4fbd185010448ba8785eb42476892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22a9db2596d032a547934d895e46805') in 0.024131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_015.png
+  artifactKey: Guid(730780944aab8479d88b16b3d0539b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_015.png using Guid(730780944aab8479d88b16b3d0539b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b254c429390b055714f49456921b29a5') in 0.026490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_007.png
+  artifactKey: Guid(649169f9bdb5149e79a3d32328428c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_007.png using Guid(649169f9bdb5149e79a3d32328428c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc292ca3dca12567e1e9e3db86f8435') in 0.022321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_019.png
+  artifactKey: Guid(b305ef0e8cbcd4184aa763a16d6a052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_019.png using Guid(b305ef0e8cbcd4184aa763a16d6a052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04a7219cab4b456cf9508159962d99d') in 0.027033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_012.png
+  artifactKey: Guid(6b87f06c4b67043c4b358fe7ad8a3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_012.png using Guid(6b87f06c4b67043c4b358fe7ad8a3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e8779dc75f9ef40924abfbd8a0fa9d') in 0.021035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_011.png
+  artifactKey: Guid(5480c7dff57ba48ed80405b54c28f34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_011.png using Guid(5480c7dff57ba48ed80405b54c28f34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3e1e126dcf4f0a7470df82a4013e2f') in 0.028002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_016.png
+  artifactKey: Guid(c41ac29601ef64500b6093938c528f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_016.png using Guid(c41ac29601ef64500b6093938c528f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06660510fe67b81c3aa40310d59114de') in 0.025680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_009.png
+  artifactKey: Guid(049b373a4883047499256d9c9686011b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_009.png using Guid(049b373a4883047499256d9c9686011b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2e679ac9e846d949292813e88941e6') in 0.029403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_006.png
+  artifactKey: Guid(d40ed2f58777547bdbfd782774b7846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_006.png using Guid(d40ed2f58777547bdbfd782774b7846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0bc7e5db0023ec37bc5edf9081f145') in 0.023279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_010.png
+  artifactKey: Guid(8dea7608b8428420aa9a298903715412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_010.png using Guid(8dea7608b8428420aa9a298903715412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3188576c96352f621add0d27bea8e7') in 0.038888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_018.png
+  artifactKey: Guid(a623c6c47c97f48259bc9d96013a6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_018.png using Guid(a623c6c47c97f48259bc9d96013a6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6689564d33841947e9d31219647476e7') in 0.020744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_014.png
+  artifactKey: Guid(a51a6335bc27346718182411af2be4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_014.png using Guid(a51a6335bc27346718182411af2be4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3c0f5dbda59bce984033b2beb4e268') in 0.017543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.419158 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_000.png
+  artifactKey: Guid(da76815f3352f46dd9978e4a87ac2be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_000.png using Guid(da76815f3352f46dd9978e4a87ac2be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4a0257961f5c4d3982bfb4c2c2346e') in 0.032212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_002.png
+  artifactKey: Guid(80387d97fd618487295ee97852c043ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_002.png using Guid(80387d97fd618487295ee97852c043ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e792fce553c424b482a534822b3103') in 0.032415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_003.png
+  artifactKey: Guid(da2f2778ee41641f89dddde47788bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_003.png using Guid(da2f2778ee41641f89dddde47788bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce52934ae388613143f1498e36c8d5c') in 0.026349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_004.png
+  artifactKey: Guid(7fc9c52b66281488b8bd705c5447739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_004.png using Guid(7fc9c52b66281488b8bd705c5447739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcab5f054eb7928bf926679e3df0339') in 0.017201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_001.png
+  artifactKey: Guid(a94226bdcd8494dedbb6372a7972753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_001.png using Guid(a94226bdcd8494dedbb6372a7972753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f45dfa33a6a1354d35d855fe43cfa9') in 0.024075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.082754 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_021.png
+  artifactKey: Guid(9d4f0040647204b3e8b63993e3eb3a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_021.png using Guid(9d4f0040647204b3e8b63993e3eb3a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9064bcd26e422d7e9728a50f7b2148') in 0.029786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_022.png
+  artifactKey: Guid(61ee0bdba1b3c40b593aec7dd17d7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_022.png using Guid(61ee0bdba1b3c40b593aec7dd17d7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171b0a09e9805fdc62199ffafcced4e4') in 0.032053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_023.png
+  artifactKey: Guid(db0365ff19f614c6abddcc77a8148014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final 2/level 4/Enemy4/Walking/0_Golem_Walking_023.png using Guid(db0365ff19f614c6abddcc77a8148014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb579b16a71a0b06cd3b4d4780a6af5') in 0.022444 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-21 20:04:06.417 Unity[26611:1366895] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001cba4c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1123ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2355 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.6 MB.
+System memory in use after: 239.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2882.
+Total: 3.766933 ms (FindLiveObjects: 0.208333 ms CreateObjectMapping: 0.103469 ms MarkObjects: 3.343962 ms  DeleteObjects: 0.110161 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.877362 seconds.
+  path: Assets/Scenes/level4.unity
+  artifactKey: Guid(c064cc6ac38674cb784a47c28746cee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level4.unity using Guid(c064cc6ac38674cb784a47c28746cee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613ef21868c8df4db64931693d858ded') in 0.012901 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-21 20:04:11.964 Unity[26611:1366895] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001ca93b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1080ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2355 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.7 MB.
+System memory in use after: 239.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 3.671061 ms (FindLiveObjects: 0.205944 ms CreateObjectMapping: 0.104894 ms MarkObjects: 3.253998 ms  DeleteObjects: 0.105516 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.935843 seconds.
+  path: Assets/Animations/level 4 Enemy/Enemy.controller
+  artifactKey: Guid(1c24836efd4ca4e7682060d576fc3295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/level 4 Enemy/Enemy.controller using Guid(1c24836efd4ca4e7682060d576fc3295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae60c8e6f2902ce76f11819edd8fe89c') in 0.025825 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-21 20:06:41.782 Unity[26611:1366895] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001caa7d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1632ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1351ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (500ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2355 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.9 MB.
+System memory in use after: 240.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2888.
+Total: 4.263022 ms (FindLiveObjects: 0.228518 ms CreateObjectMapping: 0.122073 ms MarkObjects: 3.782493 ms  DeleteObjects: 0.128930 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.380969 seconds.
+  path: Assets/Scenes/level5.unity
+  artifactKey: Guid(fcc2eff8488ed4e55bdc56b301429e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level5.unity using Guid(fcc2eff8488ed4e55bdc56b301429e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caa43aa41d821bcf894cb3611181089') in 0.006307 seconds 
