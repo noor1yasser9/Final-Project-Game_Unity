@@ -35,11 +35,14 @@ public class Bullet : MonoBehaviour
              Destroy(other);
             Destroy(gameObject);
         }else 	 if(collision.gameObject.CompareTag("BigEnemy")){
+
 	HealthBarScript. healthEn -=2f;
              Destroy(gameObject);
 		if(HealthBarScript. healthEn <=0){
 //other.transform.Rotate(0,0,90);
 EnemyDamage. isControl =false;
+//other. GetComponent<Animator> ().SetBool("Moving", false);
+//other. GetComponent<Animator> ().SetBool("isDie", true);
  		Destroy(other);
 }
 }
