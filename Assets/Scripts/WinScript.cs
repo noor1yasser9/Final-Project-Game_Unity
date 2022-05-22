@@ -40,7 +40,7 @@ EnemyDamage. isControl = true;
     }
 
     void OnTriggerEnter2D(Collider2D col){
- //PlayerPrefs.DeleteAll();
+ PlayerPrefs.DeleteAll();
 	 if(col.gameObject.CompareTag("Player") && !EnemyDamage.isControl){
 
 		if(PlayerPrefs.GetInt("level",1)<=5){

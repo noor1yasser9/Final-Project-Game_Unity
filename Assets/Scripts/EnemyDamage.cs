@@ -22,6 +22,16 @@ public static bool isControl = true;
     private Animator anim;
      private EnemyPatrol enemyPatrol;
 
+
+public  Camera cam;
+
+    private void Start()
+    {
+
+	cam = GameObject.Find("Main Camera").GetComponent<Camera>();
+
+}
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -85,6 +95,10 @@ if(other.gameObject.CompareTag("Player")){
 	if( HealthBarScript.health<=0){
 			other.gameObject.GetComponent<PlayerMovement>().transform.position  = 	other.gameObject.GetComponent<PlayerMovement>().startPosition ;
  HealthBarScript. health = 100f;
+
+
+cam. transform.position = cam.GetComponent<CustomCamera .FollowCamera2D>().startPosition;
+
 }
 
 }

@@ -17,26 +17,44 @@ public static bool isControll = true;
 [SerializeField]
     GameObject bulletPrefab;
 
+[SerializeField]
+    float start,end;
+
+ public static long isLoop = 3000;
+
+public  Camera cam;
+
     private void Start()
     {
+
+	cam = GameObject.Find("Main Camera").GetComponent<Camera>();
+
+controlCamer();
         _rigidbody = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
         startPosition = transform.position;
 print("ttttt"+ startPosition);
+isLoop = 0;
     }
 
     private void Update()
     {
+
+controlCamer();
+
+
 if(isControll)
 {
         var movement = Input.GetAxis("Horizontal");
  if (movement > 0 && transform.localScale.x < 0)
         {
             Flip();
+
         }
         else if (movement < 0 && transform.localScale.x > 0)
         {
             Flip();
+
         }
          if (Input.GetKeyDown(KeyCode.Space)){
  anim.SetBool("isThrowing", true);
@@ -85,8 +103,18 @@ if(isControll)
         Vector3 currentScale = transform.localScale;
         currentScale.x *= -1;
         transform.localScale = currentScale;
+
+
      }
 
+	 void controlCamer(){
+	if(transform.position.x < start){
+CustomCamera .FollowCamera2D. isControl = false;
+}else if(transform.position.x>= end){
+CustomCamera .FollowCamera2D. isControl = false;
+}else{
+CustomCamera .FollowCamera2D. isControl = true;
+}}
   
     private void  OnTriggerEnter2D(Collider2D collision)
     {
@@ -97,6 +125,7 @@ if(isControll)
         {
             transform.position = startPosition;
 
+cam. transform.position = cam.GetComponent<CustomCamera .FollowCamera2D>().startPosition;
             return;
         }
     }

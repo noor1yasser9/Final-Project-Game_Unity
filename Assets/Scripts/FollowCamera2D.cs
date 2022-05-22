@@ -49,7 +49,8 @@ namespace CustomCamera
         bool isDeadZoneHorizontal;
         bool isDeadZoneVertical;
         Vector3 deltaCenterVec;
-
+		public  Vector3 startPosition;
+       public static bool isControl = true;
         void Start()
         {
             camera = GetComponent<Camera>();
@@ -58,7 +59,7 @@ namespace CustomCamera
             deltaCenterVec = camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0))
                 - camera.ViewportToWorldPoint(new Vector3(cameraCenterX, cameraCenterY, 0));
 
-
+startPosition = camera .transform.position;
             isFollowHorizontal = (followType & Direction.Horizontal) == Direction.Horizontal;
             isFollowVertical = (followType & Direction.Vertical) == Direction.Vertical;
             isBoundHorizontal = (boundType & Direction.Horizontal) == Direction.Horizontal;
@@ -71,6 +72,7 @@ namespace CustomCamera
 
         void LateUpdate()
         {
+		if(isControl){
             if (target)
             {
                 Vector3 delta = target.position - camera.ViewportToWorldPoint(new Vector3(cameraCenterX, cameraCenterY, 0));
@@ -131,6 +133,12 @@ namespace CustomCamera
                 transform.position = tempVec;
             }
         }
+}
+
+
+
     }
+
+ 
 
 }
