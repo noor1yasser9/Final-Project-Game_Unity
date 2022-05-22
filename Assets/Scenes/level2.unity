@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+  cam: {fileID: 0}
 --- !u!60 &19696370
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -425,6 +426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+  cam: {fileID: 0}
 --- !u!60 &55095269
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1454,6 +1456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+  cam: {fileID: 0}
 --- !u!60 &320884535
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4844,6 +4847,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 711168414217671633, guid: 62701c4c71df04614a23a9d1f669c26d, type: 3}
   start: -18.3
   end: 7
+  cam: {fileID: 0}
 --- !u!95 &981436016
 Animator:
   serializedVersion: 3
@@ -6171,6 +6175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+  cam: {fileID: 0}
 --- !u!60 &1140649821
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7088,6 +7093,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8757560403325995781, guid: b9fd04fad9770430282c27c36b2b3b12, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9fd04fad9770430282c27c36b2b3b12, type: 3}
 --- !u!1001 &1329588085
@@ -7528,6 +7537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+  cam: {fileID: 0}
 --- !u!60 &1495178841
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7788,13 +7798,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 2
-  range: 0.86
+  range: 0.4
   damage: 10
   colliderDistance: 3.17
   boxCollider: {fileID: 1547277744}
   playerLayer:
     serializedVersion: 2
     m_Bits: 32
+  cam: {fileID: 0}
 --- !u!61 &1547277744
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9530,6 +9541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+  cam: {fileID: 0}
 --- !u!60 &1752290259
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11395,6 +11407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+  cam: {fileID: 0}
 --- !u!60 &2039142463
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11746,6 +11759,7 @@ MonoBehaviour:
   rightDeadBound: 0
   upperDeadBound: 0
   lowerDeadBound: 0
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1001 &2140239465
 PrefabInstance:
   m_ObjectHideFlags: 0
