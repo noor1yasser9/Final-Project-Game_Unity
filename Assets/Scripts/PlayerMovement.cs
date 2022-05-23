@@ -127,7 +127,10 @@ CustomCamera .FollowCamera2D. isControl = true;
 
 cam. transform.position = cam.GetComponent<CustomCamera .FollowCamera2D>().startPosition;
             return;
-        }
+        } else 
+	if (other.tag == "HP_Bonus"){
+       Destroy(other);
+}
     }
 
 

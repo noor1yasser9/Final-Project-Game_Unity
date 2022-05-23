@@ -20,9 +20,9 @@ public class MainScript : MonoBehaviour
 changeColor(level2,PlayerPrefs. GetInt("level2",0));
         level3.enabled = PlayerPrefs. GetInt("level2",0)==1?true:false;
 changeColor(level3,PlayerPrefs. GetInt("level3",0));
-        level4.enabled = PlayerPrefs. GetInt("level2",0)==1?true:false;
-changeColor(level3,PlayerPrefs. GetInt("level4",0));
-        level5.enabled = PlayerPrefs. GetInt("level2",0)==1?true:false;
+        level4.enabled = PlayerPrefs. GetInt("level4",0)==1?true:false;
+changeColor(level4,PlayerPrefs. GetInt("level4",0));
+        level5.enabled = PlayerPrefs. GetInt("level5",0)==1?true:false;
 changeColor(level5,PlayerPrefs. GetInt("level5",0));
     }
 

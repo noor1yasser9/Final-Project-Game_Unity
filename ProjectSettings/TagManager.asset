@@ -11,6 +11,7 @@ TagManager:
   - PlayerBar
   - EnemyBar
   - BigEnemy
+  - HP_Bonus
   layers:
   - Default
   - TransparentFX
