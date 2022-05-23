@@ -42,7 +42,7 @@ void changeColor(Button button, int isEnabled){
 	public void level(int i){
 		Debug.Log("Play");
 		SceneManager.LoadScene(i);
-		PlayerPrefs. GetInt("level",i);	
+		PlayerPrefs. SetInt("level",i);	
 	}
 	public void quitButton(){
 		Debug.Log("Quit");

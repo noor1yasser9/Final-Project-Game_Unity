@@ -558,7 +558,6 @@ GameObject:
   - component: {fileID: 138463140}
   - component: {fileID: 138463139}
   - component: {fileID: 138463138}
-  - component: {fileID: 138463137}
   - component: {fileID: 138463136}
   m_Layer: 5
   m_Name: home
@@ -595,23 +594,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 138463134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a642acbea71e43a5b87f4552515a375, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level2: {fileID: 0}
-  level3: {fileID: 0}
-  level4: {fileID: 0}
-  level5: {fileID: 0}
---- !u!114 &138463137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138463134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3717357899fa546aaac89f97f3330fdd, type: 3}
+  m_Script: {fileID: 11500000, guid: ffc4110d610484889a82eb2e349bf622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &138463138
@@ -659,25 +642,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 138463136}
-        m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: level
-        m_Mode: 3
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: HomeScreenGameOver
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 138463137}
-        m_TargetAssemblyTypeName: StopScrpit, Assembly-CSharp
-        m_MethodName: StopGame
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1494,6 +1465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thorns
       objectReference: {fileID: 0}
+    - target: {fileID: 3968608503964252154, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 8199684808333618219, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1255407
@@ -1781,7 +1756,7 @@ GameObject:
   - component: {fileID: 372488244}
   - component: {fileID: 372488243}
   m_Layer: 5
-  m_Name: complete
+  m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1815,7 +1790,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 372488241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3717357899fa546aaac89f97f3330fdd, type: 3}
+  m_Script: {fileID: 11500000, guid: ffc4110d610484889a82eb2e349bf622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &372488244
@@ -1862,26 +1837,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1753483408}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 372488243}
-        m_TargetAssemblyTypeName: StopScrpit, Assembly-CSharp
-        m_MethodName: StopGame
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: NextLevelFun
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2805,6 +2768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thorns (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3968608503964252154, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 8199684808333618219, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1255407
@@ -2882,6 +2849,10 @@ PrefabInstance:
       propertyPath: damage
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1575340459490443665, guid: 26c9ad1abbc5849798948fceeb18e67a, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 5914696647417864675, guid: 26c9ad1abbc5849798948fceeb18e67a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5242649
@@ -3908,7 +3879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &834129651
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4607,6 +4578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thorns (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3968608503964252154, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 8199684808333618219, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1255407
@@ -4961,6 +4936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thorns (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3968608503964252154, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 8199684808333618219, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1255407
@@ -5163,7 +5142,7 @@ GameObject:
   - component: {fileID: 1303095252}
   - component: {fileID: 1303095251}
   m_Layer: 5
-  m_Name: complete
+  m_Name: return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5197,7 +5176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1303095249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3717357899fa546aaac89f97f3330fdd, type: 3}
+  m_Script: {fileID: 11500000, guid: ffc4110d610484889a82eb2e349bf622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1303095252
@@ -5244,21 +5223,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2012162686}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1303095251}
-        m_TargetAssemblyTypeName: StopScrpit, Assembly-CSharp
-        m_MethodName: StopGame
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: GameOver
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5854,6 +5821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: win
       objectReference: {fileID: 0}
+    - target: {fileID: 7568196355850411121, guid: 2f2a9796496a7417b94b30dd3d40eb40, type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 1753483408}
     - target: {fileID: 9155643357683865590, guid: 2f2a9796496a7417b94b30dd3d40eb40, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6471,6 +6442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thorns (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3968608503964252154, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 8199684808333618219, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1255407
@@ -7405,7 +7380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1753483409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7578,7 +7553,6 @@ GameObject:
   - component: {fileID: 1785394074}
   - component: {fileID: 1785394073}
   - component: {fileID: 1785394072}
-  - component: {fileID: 1785394071}
   - component: {fileID: 1785394070}
   m_Layer: 5
   m_Name: home
@@ -7615,23 +7589,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1785394068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a642acbea71e43a5b87f4552515a375, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level2: {fileID: 0}
-  level3: {fileID: 0}
-  level4: {fileID: 0}
-  level5: {fileID: 0}
---- !u!114 &1785394071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785394068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3717357899fa546aaac89f97f3330fdd, type: 3}
+  m_Script: {fileID: 11500000, guid: ffc4110d610484889a82eb2e349bf622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1785394072
@@ -7679,20 +7637,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1785394070}
-        m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: level
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1785394071}
-        m_TargetAssemblyTypeName: StopScrpit, Assembly-CSharp
-        m_MethodName: StopGame
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: HomeScreenFun
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7837,6 +7783,10 @@ PrefabInstance:
       propertyPath: damage
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1575340459490443665, guid: 26c9ad1abbc5849798948fceeb18e67a, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 5914696647417864675, guid: 26c9ad1abbc5849798948fceeb18e67a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5242649
@@ -8348,7 +8298,7 @@ GameObject:
   - component: {fileID: 2008773968}
   - component: {fileID: 2008773967}
   m_Layer: 5
-  m_Name: complete (1)
+  m_Name: Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8382,7 +8332,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2008773965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3717357899fa546aaac89f97f3330fdd, type: 3}
+  m_Script: {fileID: 11500000, guid: ffc4110d610484889a82eb2e349bf622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2008773968
@@ -8429,21 +8379,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1753483408}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2008773967}
-        m_TargetAssemblyTypeName: StopScrpit, Assembly-CSharp
-        m_MethodName: StopGame
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: ReturnLevelFun
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8671,6 +8609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thorns (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3968608503964252154, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
+      propertyPath: gameOverScreeen
+      value: 
+      objectReference: {fileID: 2012162686}
     - target: {fileID: 8199684808333618219, guid: 7223ed3aecce345a6a8aa34c91d8ac57, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1255407

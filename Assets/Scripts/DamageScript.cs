@@ -8,6 +8,8 @@ public class DamageScript : MonoBehaviour
 
 public  Camera cam;
 
+[SerializeField]
+  GameObject gameOverScreeen;
     private void Start()
     {
 
@@ -27,7 +29,7 @@ if(other.gameObject.CompareTag("Player")){
 			other.gameObject.GetComponent<PlayerMovement>().transform.position  = 	other.gameObject.GetComponent<PlayerMovement>().startPosition ;
  HealthBarScript. health = 100f;
 cam. transform.position = cam.GetComponent<CustomCamera .FollowCamera2D>().startPosition;
-
+gameOverScreeen.SetActive (true);
 }
        //HealthBarScript. health -=2f;
     }
