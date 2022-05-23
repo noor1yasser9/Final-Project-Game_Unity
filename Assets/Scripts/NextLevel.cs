@@ -12,6 +12,7 @@ PlayerPrefs.SetInt("level"+ level,1);
 PlayerMovement.isControll = true;
 EnemyDamage. isControl = true;
 SceneManager.LoadScene(level);
+HealthBarScript. healthEn = 100 * level;
 }
 
 	public void ReturnLevelFun(int level){
@@ -20,6 +21,7 @@ SceneManager.LoadScene(level);
 	PlayerMovement.isControll = true;
 	EnemyDamage. isControl = true;
 	SceneManager.LoadScene(level);
+HealthBarScript. healthEn = 100 * level;
 }
 
     public void HomeScreenFun(int level){
@@ -29,6 +31,7 @@ SceneManager.LoadScene(level);
 	EnemyDamage. isControl = true;
 	SceneManager.LoadScene(0);
 HealthBarScript. lives= 3;
+HealthBarScript. healthEn = 100 * level;
 }
 
 public void GameOver(int level){
@@ -36,6 +39,7 @@ public void GameOver(int level){
 	EnemyDamage. isControl = true;
 	SceneManager.LoadScene(level);
 HealthBarScript. lives = 3;
+HealthBarScript. healthEn = 100 * level;
 }
 
 public void HomeScreenGameOver(){
@@ -43,6 +47,7 @@ public void HomeScreenGameOver(){
 	EnemyDamage. isControl = true;
 	SceneManager.LoadScene(0);
 HealthBarScript. lives= 3;
+HealthBarScript. healthEn = 0;
 }
 
 

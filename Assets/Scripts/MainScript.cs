@@ -43,6 +43,7 @@ void changeColor(Button button, int isEnabled){
 		Debug.Log("Play");
 		SceneManager.LoadScene(i);
 		PlayerPrefs. SetInt("level",i);	
+HealthBarScript. healthEn = 100*i;
 	}
 	public void quitButton(){
 		Debug.Log("Quit");

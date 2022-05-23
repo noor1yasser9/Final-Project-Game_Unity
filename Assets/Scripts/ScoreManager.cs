@@ -13,6 +13,7 @@ public class ScoreManager : MonoBehaviour
     public Text text ; 
     public Text text2 ; 
     public Text text3 ; 
+    public Text bullet20 ; 
     int coinScore = 0 ; 
     int goldScore = 0 ; 
      int health = 100;
@@ -39,7 +40,7 @@ public class ScoreManager : MonoBehaviour
 
 void Update(){
 text2.text = HealthBarScript. lives+"";
-
+bullet20.text = PlayerMovement. bullet2 +"";
 }
 
 public void ChangeCoinScore(int coinValue ){

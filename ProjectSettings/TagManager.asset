@@ -13,6 +13,7 @@ TagManager:
   - BigEnemy
   - HP_Bonus
   - BetBar
+  - Bullet2
   layers:
   - Default
   - TransparentFX

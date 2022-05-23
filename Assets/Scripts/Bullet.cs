@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Bullet : MonoBehaviour
 {
 
@@ -10,6 +10,15 @@ public class Bullet : MonoBehaviour
     public float speed = 10;
     int dd = 0;
     // Update is called once per frame
+
+GameObject bullit;
+
+   void Start()
+    {
+
+}
+
+
     void Update()
     {
       
@@ -34,16 +43,20 @@ public class Bullet : MonoBehaviour
         }else if (other.tag == "BatEnemyPlayer"){
 HealthBarScript  sc = collision.gameObject.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<HealthBarScript>();
 
-
-
-//= other.Find("h1") ;
+if(transform.tag == "Bullet2"){
+sc. healthBet -=100;
+}else
 sc. healthBet -=50;
 if(sc. healthBet <=0){
              Destroy(other);
             Destroy(gameObject);
-}//*/
+}
         }else 	 if(collision.gameObject.CompareTag("BigEnemy")){
 
+if(transform.tag == "Bullet2"){
+HealthBarScript. healthEn -=20f;
+}
+else
 	HealthBarScript. healthEn -=2f;
              Destroy(gameObject);
 		if(HealthBarScript. healthEn <=0){

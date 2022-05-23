@@ -15,7 +15,7 @@ public static bool isControll = true;
     public Animator anim;
      public  Vector3 startPosition;
 [SerializeField]
-    GameObject bulletPrefab;
+    GameObject bulletPrefab,bulletPrefab2;
 [SerializeField]
   GameObject gameOverScreeen;
 [SerializeField]
@@ -26,6 +26,8 @@ public static bool isControll = true;
 public  Camera cam;
 
   int isLoading = 2000;
+
+	public static int bullet2 =3;
 
     private void Start()
     {
@@ -64,15 +66,25 @@ if(isControll)
          if (Input.GetKeyDown(KeyCode.Space)){
  anim.SetBool("isThrowing", true);
          }
+
+	if(Input.GetKeyDown(KeyCode.LeftShift)&& PlayerMovement .bullet2 >0){
+anim.SetBool("isThrowing", true);
+}
     if (Input.GetKeyUp(KeyCode.Space))
         {
-            GameObject obj = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-             obj.transform.position += new Vector3(0.02f,0.3f,0);
-            Bullet b = obj.GetComponent<Bullet>();
-            b.direction = transform.localScale.x;
+         Bullet(bulletPrefab);
               anim.SetBool("isThrowing", false);
             
         }
+
+
+        if (Input.GetKeyUp(KeyCode.LeftShift) && PlayerMovement .bullet2 >0)
+        {
+PlayerMovement .bullet2 -=1;
+     Bullet(bulletPrefab2);
+              anim.SetBool("isThrowing", false);
+        }
+
         if (movement > 0 || movement < 0)
             anim.SetFloat("Speed", Mathf.Abs(movement));
         else
@@ -112,6 +124,13 @@ if(isControll)
 
      }
 
+void Bullet(GameObject bullet){
+   GameObject obj = Instantiate(bullet, transform.position, Quaternion.identity);
+             obj.transform.position += new Vector3(0.02f,0.3f,0);
+            Bullet b = obj.GetComponent<Bullet>();
+            b.direction = transform.localScale.x;
+} 
+
 	 void controlCamer(){
 	if(transform.position.x < start){
 CustomCamera .FollowCamera2D. isControl = false;
@@ -130,10 +149,14 @@ CustomCamera .FollowCamera2D. isControl = true;
         {
 
 HealthPlayer(other,10);
-        } else 
-	if (other.tag == "HP_Bonus"){
+        } else  if (other.tag == "HP_Bonus"){
        Destroy(other);
 }
+	else if (other.tag == "Bullet2"){
+PlayerMovement .bullet2 +=1;
+       Destroy(other);
+}
+
     }
 
     private void  OnTriggerStay2D(Collider2D collision)
