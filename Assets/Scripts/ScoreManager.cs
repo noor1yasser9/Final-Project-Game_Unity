@@ -37,7 +37,10 @@ public class ScoreManager : MonoBehaviour
     }
 
 
+void Update(){
+text2.text = HealthBarScript. lives+"";
 
+}
 
 public void ChangeCoinScore(int coinValue ){
 

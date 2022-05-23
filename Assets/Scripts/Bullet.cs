@@ -32,8 +32,16 @@ public class Bullet : MonoBehaviour
         if(other.tag == "TileMap") {
              Destroy(gameObject);
         }else if (other.tag == "BatEnemyPlayer"){
+HealthBarScript  sc = collision.gameObject.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<HealthBarScript>();
+
+
+
+//= other.Find("h1") ;
+sc. healthBet -=50;
+if(sc. healthBet <=0){
              Destroy(other);
             Destroy(gameObject);
+}//*/
         }else 	 if(collision.gameObject.CompareTag("BigEnemy")){
 
 	HealthBarScript. healthEn -=2f;

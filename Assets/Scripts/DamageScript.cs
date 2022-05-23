@@ -20,8 +20,15 @@ public  Camera cam;
 
     void OnTriggerEnter2D(Collider2D col){
 	 if(col.gameObject.CompareTag("Player")){
+if(damage>0)
 	HealthBarScript. health -= damage;
-
+else{
+if(HealthBarScript. health<100){
+HealthBarScript. health -= damage;
+}else {
+HealthBarScript. lives +=1;
+}
+}
 }
 }
 
@@ -32,7 +39,10 @@ if(other.gameObject.CompareTag("Player")){
 			other.gameObject.GetComponent<PlayerMovement>().transform.position  = 	other.gameObject.GetComponent<PlayerMovement>().startPosition ;
  HealthBarScript. health = 100f;
 cam. transform.position = cam.GetComponent<CustomCamera .FollowCamera2D>().startPosition;
+HealthBarScript. lives -=1;
+if(HealthBarScript. lives <=0)
 gameOverScreeen.SetActive (true);
+PlayerMovement .isControll=false;
 }
        //HealthBarScript. health -=2f;
     }

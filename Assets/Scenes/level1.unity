@@ -1567,7 +1567,7 @@ GameObject:
   - component: {fileID: 335435480}
   - component: {fileID: 335435481}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: lives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3333,6 +3333,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   startPosition: {x: 0, y: 0, z: 0}
   bulletPrefab: {fileID: 711168414217671633, guid: 62701c4c71df04614a23a9d1f669c26d, type: 3}
+  gameOverScreeen: {fileID: 2012162686}
   start: -6.32
   end: 12.51
   cam: {fileID: 0}

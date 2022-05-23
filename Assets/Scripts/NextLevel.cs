@@ -28,18 +28,21 @@ SceneManager.LoadScene(level);
 	PlayerMovement.isControll = true;
 	EnemyDamage. isControl = true;
 	SceneManager.LoadScene(0);
+HealthBarScript. lives= 3;
 }
 
 public void GameOver(int level){
 	PlayerMovement.isControll = true;
 	EnemyDamage. isControl = true;
 	SceneManager.LoadScene(level);
+HealthBarScript. lives = 3;
 }
 
 public void HomeScreenGameOver(){
 	PlayerMovement.isControll = true;
 	EnemyDamage. isControl = true;
 	SceneManager.LoadScene(0);
+HealthBarScript. lives= 3;
 }
 
 

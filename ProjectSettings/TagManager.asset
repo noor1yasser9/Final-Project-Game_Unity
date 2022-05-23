@@ -12,6 +12,7 @@ TagManager:
   - EnemyBar
   - BigEnemy
   - HP_Bonus
+  - BetBar
   layers:
   - Default
   - TransparentFX

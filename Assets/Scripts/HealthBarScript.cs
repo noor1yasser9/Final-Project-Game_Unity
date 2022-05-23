@@ -9,7 +9,8 @@ Image healthBar;
 float maxHealth = 100f;
 public static float health;
 public static float healthEn;
-
+ public  float healthBet = 100;
+public static int lives = 3;
 
 	void Start(){
 		healthBar = GetComponent<Image>();
@@ -20,11 +21,12 @@ public static float healthEn;
 	void Update(){
 	if (healthBar.tag == "EnemyBar"){
 		healthBar.fillAmount = healthEn / maxHealth;
-print("tttttt Update Update Programming"+HealthBarScript.healthEn);
 }
-	else if  (healthBar.tag == "PlayerBar")
+	else if  (healthBar.tag == "PlayerBar"){
 	healthBar.fillAmount = health / maxHealth;
-print(" tttttt Update Update Programming"+healthBar.tag);
+	}
+else if  (healthBar.tag == "BetBar")
+	healthBar.fillAmount = healthBet / maxHealth;
 	}
 
 

@@ -16,13 +16,16 @@ public static bool isControll = true;
      public  Vector3 startPosition;
 [SerializeField]
     GameObject bulletPrefab;
-
+[SerializeField]
+  GameObject gameOverScreeen;
 [SerializeField]
     float start,end;
 
  public static long isLoop = 3000;
 
 public  Camera cam;
+
+  int isLoading = 2000;
 
     private void Start()
     {
@@ -39,6 +42,8 @@ isLoop = 0;
 
     private void Update()
     {
+
+isLoading -=100;
 
 controlCamer();
 
@@ -123,15 +128,43 @@ CustomCamera .FollowCamera2D. isControl = true;
 
             if (other.tag == "BatEnemyPlayer")
         {
-            transform.position = startPosition;
 
-cam. transform.position = cam.GetComponent<CustomCamera .FollowCamera2D>().startPosition;
-            return;
+HealthPlayer(other,10);
         } else 
 	if (other.tag == "HP_Bonus"){
        Destroy(other);
 }
     }
 
+    private void  OnTriggerStay2D(Collider2D collision)
+    {
+        GameObject other = collision.gameObject;
 
+
+            if (other.tag == "BatEnemyPlayer")
+        {
+
+if(isLoading<=0){
+HealthPlayer(other,5);
+isLoading = 2000;
+}
+        } 
+}
+
+ void HealthPlayer(GameObject other, float hel){
+
+      
+HealthBarScript. health -= hel;
+			if(HealthBarScript. health <= 0){
+            transform.position = startPosition;
+
+cam. transform.position = cam.GetComponent<CustomCamera .FollowCamera2D>().startPosition;
+HealthBarScript. lives -=1;
+HealthBarScript. health =100;
+if(HealthBarScript. lives <=0){
+gameOverScreeen.SetActive (true);
+PlayerMovement .isControll=false;
+}
+}
+}
 }
