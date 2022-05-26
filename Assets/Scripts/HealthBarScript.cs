@@ -5,11 +5,17 @@ using UnityEngine.UI;
 
 public class HealthBarScript : MonoBehaviour {
 
+[SerializeField]
+       public AudioClip batAudio;
+
+
 Image healthBar;
 float maxHealth = 100f;
 public static float health;
 public static float healthEn;
  public  float healthBet = 100;
+
+
 public static int lives = 3;
 
 	void Start(){

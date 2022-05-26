@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 public class DamageScript : MonoBehaviour
 {
+
+
+ public AudioSource audioSource;
+       public AudioClip coinAudio;
+
 [SerializeField] private float damage;
 
 public  Camera cam;
@@ -14,6 +19,7 @@ GameObject bullit2;
     private void Start()
     {
 bullit2 = GetComponent<GameObject>();
+  audioSource = GetComponent<AudioSource>();
 
 
 	cam = GameObject.Find("Main Camera").GetComponent<Camera>();
@@ -23,6 +29,9 @@ bullit2 = GetComponent<GameObject>();
     void OnTriggerEnter2D(Collider2D col){
 		
 	 if(col.gameObject.CompareTag("Player")){
+if (!audioSource.isPlaying){
+   audioSource.PlayOneShot(coinAudio);
+} 
  if(damage>0)
 	HealthBarScript. health -= damage;
 else{
@@ -54,7 +63,7 @@ PlayerMovement .isControll=false;
 }else {
 PlayerMovement .isControll=true;
 }
-       //HealthBarScript. health -=2f;
+ 
     }
 }
 }

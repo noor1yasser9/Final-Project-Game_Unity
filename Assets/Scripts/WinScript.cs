@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 public class WinScript : MonoBehaviour
 {
 
+ public AudioSource audioSource;
+       public AudioClip audio;
+
 [SerializeField]
   GameObject winScreen;
 Animator anim;
@@ -20,6 +23,8 @@ int isLoad = 0;
     {
         anim = GetComponent<Animator> ();
          anim.SetBool("isStart", false);
+  audioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -41,7 +46,8 @@ winScreen.SetActive (true);
 
 //PlayerPrefs.DeleteAll();
 	 if(col.gameObject.CompareTag("Player") && !EnemyDamage.isControl){
-		
+		 audioSource.PlayOneShot(audio);
+
 	PlayerMovement.isControll = false;
 anim.SetBool("isStart", true);	
 isLoad = 1;

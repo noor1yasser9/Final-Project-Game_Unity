@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+       public AudioClip jumpAudio;
+        public AudioClip hurtAudio;
+public AudioClip shootAudio1;
+public AudioClip shootAudio2;
+public AudioClip healthAudio3;
+ public AudioSource audioSource;
 public static bool isControll = true;
 
       public float MovementSpeed = 2;
@@ -31,7 +38,7 @@ public  Camera cam;
 
     private void Start()
     {
-
+  audioSource = GetComponent<AudioSource>();
 	cam = GameObject.Find("Main Camera").GetComponent<Camera>();
 
 controlCamer();
@@ -73,6 +80,7 @@ anim.SetBool("isThrowing", true);
     if (Input.GetKeyUp(KeyCode.Space))
         {
          Bullet(bulletPrefab);
+PlaySound(shootAudio1);
               anim.SetBool("isThrowing", false);
             
         }
@@ -80,6 +88,7 @@ anim.SetBool("isThrowing", true);
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && PlayerMovement .bullet2 >0)
         {
+ audioSource.PlayOneShot(shootAudio2);
 PlayerMovement .bullet2 -=1;
      Bullet(bulletPrefab2);
               anim.SetBool("isThrowing", false);
@@ -96,6 +105,8 @@ PlayerMovement .bullet2 -=1;
         if (Input.GetKeyDown(KeyCode.UpArrow)  && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
         {
             _rigidbody.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
+  audioSource.PlayOneShot(jumpAudio);
+
         }
 
         if (_rigidbody.velocity.y == 0)
@@ -105,6 +116,8 @@ PlayerMovement .bullet2 -=1;
         if (_rigidbody.velocity.y > 0)
         {
             anim.SetBool("isJumping", true);
+
+
         }
         if (_rigidbody.velocity.y < 0)
         {
@@ -150,7 +163,8 @@ CustomCamera .FollowCamera2D. isControl = true;
 
 HealthPlayer(other,10);
         } else  if (other.tag == "HP_Bonus"){
-       Destroy(other);
+PlaySound(healthAudio3);
+       Destroy(other,1f);
 }
 	else if (other.tag == "Bullet2"){
 PlayerMovement .bullet2 +=1;
@@ -166,7 +180,7 @@ PlayerMovement .bullet2 +=1;
 
             if (other.tag == "BatEnemyPlayer")
         {
-
+PlaySound(hurtAudio);
 if(isLoading<=0){
 HealthPlayer(other,5);
 isLoading = 2000;
@@ -188,6 +202,14 @@ if(HealthBarScript. lives <=0){
 gameOverScreeen.SetActive (true);
 PlayerMovement .isControll=false;
 }
+}
+}
+
+
+void PlaySound(AudioClip audio){
+if (!audioSource.isPlaying)
+        {
+   audioSource.PlayOneShot(audio);
 }
 }
 }

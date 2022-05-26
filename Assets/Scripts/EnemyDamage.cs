@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,11 +22,16 @@ public static bool isControl = true;
     private Animator anim;
      private EnemyPatrol enemyPatrol;
 
+       public AudioClip audio;
+       public AudioClip move;
+
+ public AudioSource audioSource;
 
 public  Camera cam;
 
     private void Start()
     {
+  audioSource = GetComponent<AudioSource>();
 
 	cam = GameObject.Find("Main Camera").GetComponent<Camera>();
 
@@ -46,10 +51,12 @@ if(isControl){
         //Attack only when player in sight?
         if (PlayerInSight())
         {
+
             if (cooldownTimer >= attackCooldown)
             {
                 cooldownTimer = 0;
                 anim.SetTrigger("Attack");
+
             }
         }
 
@@ -64,8 +71,9 @@ if(isControl){
             Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
-
- 
+//if (!audioSource.isPlaying && attackCooldown <= 10){
+ //		 audioSource.PlayOneShot(move);
+//}
         return hit.collider != null;
     }
     private void OnDrawGizmos()
@@ -73,6 +81,7 @@ if(isControl){
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
+
     }
 
     private void DamagePlayer()

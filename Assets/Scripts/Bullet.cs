@@ -11,10 +11,14 @@ public class Bullet : MonoBehaviour
     int dd = 0;
     // Update is called once per frame
 
+ public AudioSource audioSource;
+       public AudioClip audio;
+
 GameObject bullit;
 
    void Start()
     {
+  audioSource = GetComponent<AudioSource>();
 
 }
 
@@ -42,23 +46,27 @@ GameObject bullit;
              Destroy(gameObject);
         }else if (other.tag == "BatEnemyPlayer"){
 HealthBarScript  sc = collision.gameObject.transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).GetComponent<HealthBarScript>();
-
+if (!audioSource.isPlaying){
+   audioSource.PlayOneShot(sc.batAudio);
+}   
 if(transform.tag == "Bullet2"){
 sc. healthBet -=100;
 }else
 sc. healthBet -=50;
 if(sc. healthBet <=0){
-             Destroy(other);
-            Destroy(gameObject);
+             Destroy(other,.3f);
+            Destroy(gameObject,.3f);
 }
         }else 	 if(collision.gameObject.CompareTag("BigEnemy")){
+
+ audioSource.PlayOneShot(audio);
 
 if(transform.tag == "Bullet2"){
 HealthBarScript. healthEn -=20f;
 }
 else
 	HealthBarScript. healthEn -=2f;
-             Destroy(gameObject);
+             Destroy(gameObject,.5f);
 		if(HealthBarScript. healthEn <=0){
 //other.transform.Rotate(0,0,90);
 EnemyDamage. isControl =false;
